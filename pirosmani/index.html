@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pirosmani</title>
+</head>
+<body>
+   <div class="wrapper">
+    <header class="header">
+     
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Меню
+              </a>
+              <div class="dropdown-menu">
+                    <a class="dropdown-item dropdown_soups" href="#"><img class="dropdown_img" src="img/nav_img/soups.svg" alt="">Супы</a>
+                    <a class="dropdown-item dropdown_hachapuri" href="#"><img class="dropdown_img" src="img/nav_img/hachapuri.svg" alt="">Хачапури</a>
+                    <a class="dropdown-item dropdown_cold" href="#"><img class="dropdown_img" src="img/nav_img/cold_snacks.svg" alt="">Холодные закуски</a>
+                    <a class="dropdown-item dropdown_hinkali" href="#"><img class="dropdown_img" src="img/nav_img/chinkali.svg" alt="">Хинкали</a>
+                    <a class="dropdown-item dropdown_shashlyk" href="#"><img class="dropdown_img" src="img/nav_img/shashlyk.svg" alt="">Шашлык</a>
+                    <a class="dropdown-item dropdown_souses" href="#"><img class="dropdown_img" src="img/nav_img/souses.svg" alt="">Соусы</a>
+                    <a class="dropdown-item dropdown_salads" href="#"><img class="dropdown_img" src="img/nav_img/salads.svg" alt="">Салаты</a>
+                    <a class="dropdown-item dropdown_heat" href="#"><img class="dropdown_img" src="img/nav_img/hot_eat.svg" alt="">Горячие блюда</a>
+                    <a class="dropdown-item dropdown_garnier" href="#"><img class="dropdown_img" src="img/nav_img/garnier.svg" alt="">Гарнир</a>
+                    <a class="dropdown-item dropdown_deserts" href="#"><img class="dropdown_img" src="img/nav_img/deserts.svg" alt="">Десерты</a>
+                    <a class="dropdown-item dropdown_drinks" href="#"><img class="dropdown_img" src="img/nav_img/drinks.svg" alt="">Напитки</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="delivery.html">Доставка</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="payment.html">Оплата</a>
+            </li>
+            <li class="nav-item table_reservation">
+              <a class="nav-link" href="#">Бронь стола</a>
+            </li>
+            
+          </ul>
+          <ul class="header_right lsn flex jcsb">
+            <li class="header_right_item flex item_phone">
+              <img src="img/phone.svg" alt="">
+              <a class="nav-link link_phone asn" href="tel:+7831286000">+7 (831) 282-60-00</a>
+            </li>
+            <li class="header_right_item right_w"><img src="img/windows.svg" alt=""></li>
+            <li class="header_right_item right_ap"><img src="img/apple.svg" alt=""></li>
+            <li class="header_right_item right_an"><img src="img/android2.svg" alt=""></li>
+            <li class="header_right_item right_user"><img src="img/person.svg" alt=""></li>
+            <li class="header_right_item right_cart"><img src="img/card.svg" alt=""></li>
+          </ul>
+        </div>
+       </div>
+      </nav>
+     </header>
+   </div>
+
+
+   <main class="main">
+    <section class="home">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide home_top" data-ride="">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner home_banner">
+            <div class="carousel-item home_item active">
+              <h2 class="home_title">Подарок на первый заказ.</h2>
+            <p class="home_descr">Получите 500 рублей за подписку на рассылку</p>
+            <button class="btn home_btn btn_reset">Подписаться</button>
+            </div>
+            <div class="carousel-item home_item">
+              <h2 class="home_title">Подарок на первый заказ.</h2>
+            <p class="home_descr">Получите 500 рублей за подписку на рассылку</p>
+            <button class="btn home_btn btn_reset">Подписаться</button>
+            </div>
+            <div class="carousel-item home_item">
+              <h2 class="home_title">Подарок на первый заказ.</h2>
+            <p class="home_descr">Получите 500 рублей за подписку на рассылку</p>
+            <button class="btn home_btn btn_reset">Подписаться</button>
+            </div>
+          </div>
+          <!-- <button class="carousel-control-prev" type="button data-target="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </button> -->
+        </div>
+        <div id="carouselExampleControls" class="carousel slide home_bottom" data-ride="">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a class="home_bottom_link active " href="#">Супы</a>
+              <a class="home_bottom_link" href="#">Хачапури</a>
+              <a class="home_bottom_link" href="#">Холодные закуски</a>
+              <a class="home_bottom_link" href="#">Хинкали</a>
+              <a class="home_bottom_link" href="#">Шашлык</a>
+            </div>
+            <div class="carousel-item">
+              <a class="home_bottom_link" href="#">Соусы</a>
+              <a class="home_bottom_link" href="#">Салаты</a>
+              <a class="home_bottom_link" href="#">Горячие блюда</a>
+              
+              <a class="home_bottom_link" href="#">Гарнир</a>
+              <a class="home_bottom_link" href="#">Десерты</a>
+            </div>
+            <div class="carousel-item">
+              <a class="home_bottom_link" href="#">Напитки</a>
+              <a class="home_bottom_link" href="#">Супы</a>
+              <a class="home_bottom_link" href="#">Хачапури</a>
+              <a class="home_bottom_link" href="#">Холодные закуски</a>
+              <a class="home_bottom_link" href="#">Хинкали</a>
+            </div>
+              
+              
+          </div>
+           
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+        <div class="container">
+          <h3 class="products_title">Все товары</h3>
+          <div class="row">
+          <div class="products_wrapper col-12 flex">
+             
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="https://th.bing.com/th/id/R.ba88432e7344b0fb219935badd4ea395?rik=BRLoNnm9yhtfEw&riu=http%3a%2f%2fi.ytimg.com%2fvi%2fk_bw64n9Zak%2fmaxresdefault.jpg&ehk=iZNlboajfy%2bhlc8wOp4k%2fqU1o1fshVo%2bLFgb2qb1a4I%3d&risl=&pid=ImgRaw&r=0" alt="" class="product_img">
+                </div>
+                <a href="product_card.html" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">               
+                 </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="product">
+                <div class="product_img_block">
+                  <img src="img/product_default_img.png" alt="" class="product_img">
+                </div>
+                <a href="#" class="product_title asn">Голень Говядины</a>
+                <p class="product_descr">Описание мраморной говядины, состоящее из&nbsp;нескольких преложений. Можно наполнить.</p>
+                <div class="product_rating">
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star active"></span>
+                   <span class="product_rating_star"></span>
+                </div>
+                <div class="product_price">
+                  <b>1 050 ₽/кг</b>
+                  <span>За 500гр.</span>
+                </div>
+                <button class="to-cart">В корзину</button>
+               </div>
+               <div class="products_pagination">
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <!-- <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li> -->
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">...</a></li>
+                    <li class="page-item"><a class="page-link" href="#">8</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <img src="img/product_pagination_arrow_next.svg" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+               </div>
+              </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video">
+      <div class="container">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" iframe width="560" height="315" src="https://www.youtube.com/embed/8BvoJ2ibAd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>></iframe>
+          </iframe>
+        </div>
+      </div>
+      <!-- <div class="video_1440">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" iframe width="560" height="315" src="https://www.youtube.com/embed/8BvoJ2ibAd4?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <img class="video_click" src="img/video_play.svg" alt="">
+        </div>
+      </div> -->
+    </section>
+
+    <section class="delivery">
+      <div class="container">
+           <div class="delivery_content">
+              <h3 class="delivery_descr">Бесплатная доставка по&nbsp;Москве и&nbsp;Области от&nbsp;2999&nbsp;RUB!</h3>
+              <button class="delivery_btn">Оформить</button>
+           </div>
+              
+      </div>
+    </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer_wrapper flex">
+       <div class="footer_left">
+          <div class="footer_phones flex">
+            <div class="phone_item flex">
+              <span>Бесплатный звонок по&nbsp;РФ</span>
+              <a class="+78312826000" href="tel:+7 (831) 282-60-00">+7 (831) 282-60-00</a>
+            </div>
+            <div class="phone_delivery flex">
+              <span>Для приема заказов</span>
+              <a class="+79040664685" href="tel:+7 (904) 066-46-85">+7 (904) 066-46-85</a>
+            </div>
+          </div>
+          <div class="work_shedule">
+           <p> График работы по будням с 9:00 до 18:00</p>
+          </div>
+          <div class="footer_email flex">
+            <a class="footer_email_link" href="mailto:info@.ru">Email: info@.ru</a>
+            <a class="footer_support" href="support.html">Поддержка</a>
+          </div>
+           </div>
+       <div class="footer_center flex">
+        <div class="footer_social flex">
+          <a class="footer_link_vk" href="">Мы в вконтакте</a>
+          <a class="footer_link_insta" href="">Мы в instagram</a>
+        </div>
+       </div>
+       <div class="footer_right">
+           <div class="person">
+               <img src="img/footer_person.svg" alt="">
+               <a href="person_link">Войти / Регистрация</a>
+           </div>
+       </div>
+    </div>
+    <div class="footer_bottom">
+      <small>©2020. Пиросмани</small>
+      <a class="footer_terms" href="">Условия и соглашения</a>
+      <a class="footer_confident" href="">Политика конфиденциальности</a>
+      </div>
+  </div>
+</footer>
+
+<!-- modals -->
+<div class="popup">
+  <div class="user_room">
+  <div class="popup user_close"><img src="img/popup_user_close.svg" alt=""></div>   
+          <img class="user_login" src="img/popup_user.svg" alt="">    
+          <p class="user_room_text">Войти в личный кабинет</p>
+<input class="form-control form_name" name="user_name" required type="text" placeholder="Телефон">
+<input class="form-control form_phone" name="user_phone" required type="text" placeholder="Пароль">
+<a class="lose_password" href="">Забыли пароль?</a>
+                  <button class="btn_user_modal" name="submit" type="submit">Войти</button>
+                  <p class="form_notice">Впервые у нас?<a href="">Зарегистрироваться</a></p>
+  </div>
+    </div>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
